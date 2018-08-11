@@ -1,0 +1,83 @@
+body,
+html {
+  height: 100%;
+}
+input {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('./tree.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.main {
+  border: solid 2px black;
+  color: white;
+  background: #0000008f;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  overflow: auto;
+}
+.item {
+  font-size: 1.5rem;
+  font-family: 'Permanent Marker', cursive;
+}
+.list-item {
+  margin-bottom: 1rem;
+}
+.activity-input {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  text-indent: 1rem;
+}
+.main {
+  height: 100%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+  font-size: 1.25rem;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+  font-size: 1.25rem;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+  font-size: 1.25rem;
+}
+button {
+  background: black;
+  color: white;
+}
+button:hover {
+  color: green;
+}
+
+.input {
+  margin-top: 3.5rem;
+}
+.title-text {
+  margin-bottom: 1.75rem;
+  font-family: 'Permanent Marker', cursive;
+}
